@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Forum | Будущее строительного проектирования</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка / Герой -->
+    <header class="hero" id="home">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo">AI BuildForum</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#about" class="nav-link">О событии</a></li>
+                    <li class="nav-item"><a href="#program" class="nav-link">Программа</a></li>
+                    <li class="nav-item"><a href="#tickets" class="nav-link">Участие</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Форум-выставка: AI в строительном проектировании</h1>
+            <p>Место, где будущее встречается с настоящим</p>
+            <div class="event-info">
+                <p><i class="fas fa-calendar-alt"></i> 15 Декабря 2025</p>
+                <p><i class="fas fa-clock"></i> 10:00 - 18:00</p>
+                <p><i class="fas fa-map-marker-alt"></i> Конгресс-центр "Сфера", Москва</p>
+            </div>
+            <div id="countdown">
+                <span id="days">00</span>дн <span id="hours">00</span>ч <span id="minutes">00</span>м <span id="seconds">00</span>с
+            </div>
+            <a href="#tickets" class="cta-button">Забронировать участие</a>
+        </div>
+    </header>
+
+    <!-- О событии -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Почему это важно?</h2>
+            <p>Наш форум — это уникальная площадка для инженеров, архитекторов, проектировщиков и владельцев строительного бизнеса, где мы исследуем, как искусственный интеллект революционизирует подход к проектированию и строительству.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-brain fa-3x"></i>
+                    <h3>Для кого?</h3>
+                    <p>Инженеры, архитекторы, BIM-менеджеры, застройщики и технологические энтузиасты.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-lightbulb fa-3x"></i>
+                    <h3>Что будет?</h3>
+                    <p>Кейсы внедрения AI, живые дискуссии, мастер-классы и нетворкинг с лидерами индустрии.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-rocket fa-3x"></i>
+                    <h3>Результат</h3>
+                    <p>Практические знания, которые помогут вашей компании сократить издержки и ускорить работу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Программа -->
+    <section id="program" class="section program-section">
+        <div class="container">
+            <h2>Программа события</h2>
+            <div class="program-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">10:00 - 10:30</div>
+                    <div class="timeline-content">
+                        <h3>Регистрация и приветственный кофе</h3>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">10:30 - 11:30</div>
+                    <div class="timeline-content">
+                        <h3>Ключевой доклад: "AI как драйвер эффективности в строительстве"</h3>
+                        <p>Спикер: Иван Иванов, CEO "SmartBuild"</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">11:30 - 13:00</div>
+                    <div class="timeline-content">
+                        <h3>Панельная дискуссия: Вызовы внедрения</h3>
+                        <p>Эксперты из "ГК Вершина", "Роспроект" и "AIStroy"</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">13:00 - 14:00</div>
+                    <div class="timeline-content">
+                        <h3>Обед и нетворкинг</h3>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">14:00 - 16:00</div>
+                    <div class="timeline-content">
+                        <h3>Параллельные мастер-классы (требуется регистрация)</h3>
+                        <p>1. Оптимизация проектов с помощью ML.<br>2. Инструменты автоматизированного проектирования.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">16:00 - 17:30</div>
+                    <div class="timeline-content">
+                        <h3>Выставка технологий и демо-зоны</h3>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">17:30 - 18:00</div>
+                    <div class="timeline-content">
+                        <h3>Подведение итогов и закрытие</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма регистрации -->
+    <section id="tickets" class="section">
+        <div class="container">
+            <h2>Выберите ваш формат участия</h2>
+            <p>Станьте частью революции в строительном проектировании</p>
+
+            <form id="registration-form" class="ticket-form">
+                <div class="form-step step-1 active">
+                    <h3>Шаг 1: Выберите пакет</h3>
+                    <div class="ticket-options">
+                        <div class="ticket-card" data-price="0" data-type="guest">
+                            <h4>Гость</h4>
+                            <p class="price">Бесплатно</p>
+                            <ul>
+                                <li>Доступ на выставку</li>
+                                <li>Участие в утренних сессиях</li>
+                                <li>Кофе-брейк</li>
+                                <li><s>Мастер-классы</s></li>
+                                <li><s>Обед</s></li>
+                            </ul>
+                            <button type="button" class="select-btn">Выбрать</button>
+                        </div>
+                        <div class="ticket-card" data-price="5000" data-type="pro">
+                            <h4>Профессионал</h4>
+                            <p class="price">5 000 ₽</p>
+                            <ul>
+                                <li>Все возможности "Гостя"</li>
+                                <li>Доступ к 1 мастер-классу</li>
+                                <li>Обед</li>
+                                <li>Доступ к материалам</li>
+                                <li><s>Демо-доступ к ПО</s></li>
+                            </ul>
+                            <button type="button" class="select-btn">Выбрать</button>
+                        </div>
+                        <div class="ticket-card" data-price="15000" data-type="business">
+                            <h4>Владелец бизнеса</h4>
+                            <p class="price">15 000 ₽</p>
+                            <ul>
+                                <li>Все возможности "Профессионала"</li>
+                                <li>Доступ ко всем мастер-классам</li>
+                                <li>Приоритетная рассадка</li>
+                                <li>30-дневный демо-доступ к ПО партнеров</li>
+                                <li>Закрытый ужин со спикерами</li>
+                            </ul>
+                            <button type="button" class="select-btn">Выбрать</button>
+                        </div>
+                    </div>
+                    <button type="button" class="next-btn" id="next-to-step-2" disabled>Далее →</button>
+                </div>
+
+                <div class="form-step step-2">
+                    <h3>Шаг 2: Ваши данные</h3>
+                    <div class="form-group">
+                        <label for="name">ФИО*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Компания</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Ваш комментарий или вопрос</label>
+                        <textarea id="comment" name="comment" rows="3"></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="button" class="prev-btn">← Назад</button>
+                        <button type="button" class="next-btn" id="next-to-step-3">Далее →</button>
+                    </div>
+                </div>
+
+                <div class="form-step step-3">
+                    <h3>Шаг 3: Подтверждение и оплата</h3>
+                    <div id="order-summary">
+                        <!-- Сюда JS подставит итоги -->
+                    </div>
+                    <div class="form-group" id="payment-mock">
+                        <p><strong>Оплата (моковая):</strong></p>
+                        <label for="card-number">Номер карты</label>
+                        <input type="text" id="card-number" value="4242 4242 4242 4242" readonly>
+                        <div class="mock-card-row">
+                            <div>
+                                <label for="card-date">Срок</label>
+                                <input type="text" id="card-date" value="12/25" readonly>
+                            </div>
+                            <div>
+                                <label for="card-cvc">CVC</label>
+                                <input type="text" id="card-cvc" value="123" readonly>
+                            </div>
+                        </div>
+                        <p class="mock-note">Это демо-оплата. Никакие реальные платежи не проводятся.</p>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="button" class="prev-btn">← Назад</button>
+                        <button type="submit" id="submit-btn">Подтвердить и оплатить</button>
+                    </div>
+                </div>
+            </form>
+
+            <div id="success-message" style="display: none;">
+                <h3>Спасибо за регистрацию!</h3>
+                <p>На вашу почту отправлено письмо с подтверждением и деталями. Ждем вас на форуме!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>© 2025 AI BuildForum. Все права защищены.</p>
+            <p>Контакты: info@aibuildforum.ru | +7 (000) 123-45-67</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
